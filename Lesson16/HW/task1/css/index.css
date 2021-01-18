@@ -1,0 +1,63 @@
+.title {
+	font-family: cursive;
+}
+
+
+/* Task 1 */
+blockquote {
+    margin: 0;
+}
+
+blockquote {
+	color: green;
+}
+
+blockquote {
+    padding: 15px;
+    width: 50%;
+    background: #B0E0E6;
+}
+
+blockquote::before {
+    content: '"';
+}
+
+blockquote::after {
+    content: '"';
+}
+
+
+/* Task 2 */
+a[href^='https'] {
+	color: red;
+}
+
+.list > li:last-child a, .list > li:last-child {
+	color: green
+}
+
+ul + p {
+	font-size: 26px;
+}
+
+
+/* Task 3 */
+.text-box h3:first-child {
+	color: pink;
+}
+
+#greycol {
+	color: grey;
+}
+
+.text-box > div > p {
+	color: red;
+}
+
+.text-box p:nth-last-child(2) {
+	color: green;
+}
+
+.yellow {
+	color: yellow;
+}

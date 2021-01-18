@@ -1,0 +1,169 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .box {
+  text-align: center; 
+  font-family: serif;
+  font-size: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .box-1 {
+  background-color: #f1dcff;
+  flex:3;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.container .box-2 {  
+  flex: 50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box-3 {
+  background-color: #ff86d5;
+  flex:2;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex: 10;
+  background-color: white;
+  color: black;
+  flex-direction: column;
+  
+}
+.aside1 {
+  display: flex;
+  flex: 1;
+  min-width: 210px;
+  background-color: #fff680;
+  justify-content: center;
+}
+.aside2 {
+  display: flex;
+  flex: 1;
+  min-width: 210px;
+  justify-content: center;
+  background-color: #9ceff0;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-items .header-item {
+  padding-right: 10px;
+}
+.content-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;  
+  
+}
+.content-items .content-item {
+  align-items: center;
+  flex: 0 0 calc(33.3% - 24px);  
+  border: 2px solid purple;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content-item .text {
+  margin: 10px;
+}
+
+.content-item .btn-go {
+  background-color: purple;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-family: serif;
+  font-size: 31px;
+}
+
+.content-item .btn-go:hover {
+  background: white;
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.content-item img.round-img {
+  border-radius: 250px;
+  border: 20px solid darkgray;
+  margin: 15px 0;
+}
+
+/*task 2 - holder css*/
+
+.holder {
+  min-height: calc(100%/3);
+  display: flex;
+  flex-direction: row;
+  border: 4px solid black;
+  border-radius: 20px 20px 0 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.holder .item {
+  font-family: serif;
+  font-size: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder .item:nth-child(1) {
+  background-color: red;
+  order: 1;
+  width: 50%;
+  border-radius: 16px 0 0 0;
+}
+
+.holder .item:nth-child(2) {
+  background-color: blue;
+  order: 4;
+  width: calc(100%/3);
+}
+
+.holder .item:nth-child(3) {
+  background-color: purple;
+  order: 3;
+  width: calc(100%/3);
+}
+
+.holder .item:nth-child(4) {
+  background-color: green;
+  order: 5;
+  width: calc(100%/3);
+
+}
+
+.holder .item:nth-child(5) {
+  background-color: orange;
+  order: 2;
+  width: 50%;
+  border-radius: 0 16px 0 0;
+}
