@@ -28,11 +28,11 @@ blockquote::after {
 
 
 /* Task 2 */
-a[href^='https'] {
+.holder a[href^='https'] {
 	color: red;
 }
 
-.list > li:last-child a, .list > li:last-child {
+.list > li:last-child a {
 	color: green
 }
 
