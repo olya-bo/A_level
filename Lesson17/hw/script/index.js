@@ -1,8 +1,9 @@
 //Task 1
-let number = parseInt(prompt('Put number'));
+let number = +(prompt('Put number'));
+console.log(number)
 while (isNaN(number)) {
 	alert("It's not number");
-	number = parseInt(prompt('Put number'));
+	number = +(prompt('Put number'));
 }
 
 function is_positive (x) {
