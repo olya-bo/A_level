@@ -1,6 +1,6 @@
 //Task 1
 let number = +(prompt('Put number'));
-console.log(number)
+
 while (isNaN(number)) {
 	alert("It's not number");
 	number = +(prompt('Put number'));
