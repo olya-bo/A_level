@@ -1,0 +1,4 @@
+16-02-2021: 00:01:57    ValueError, This email already exists
+16-02-2021: 00:02:21    UnableToWorkException, I'm not hired yet, lol
+16-02-2021: 00:03:13    UnableToWorkException, I'm not hired yet, lol
+16-02-2021: 00:03:34    ValueError, This email already exists
